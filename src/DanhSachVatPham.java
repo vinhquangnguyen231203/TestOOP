@@ -21,6 +21,14 @@ public class DanhSachVatPham {
     }
 
     // Methods
+    Consumer<String> thongBaoLoi = new Consumer<String>() {
+
+        @Override
+        public void accept(String t) {
+            System.out.println(t);
+        }
+        
+    };
     public void nhap() {
         Scanner sc = new Scanner(System.in);
         System.out.println("###################");
@@ -149,14 +157,7 @@ public class DanhSachVatPham {
 
     //Cau 3
 
-    Consumer<String> thongBaoLoi = new Consumer<String>() {
-
-        @Override
-        public void accept(String t) {
-            System.out.println(t);
-        }
-        
-    };
+    
     public void nhap4() {
         float vang = 0;
         Scanner sc = new Scanner(System.in);
