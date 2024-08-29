@@ -3,5 +3,6 @@ public class App {
         DanhSachVatPham danhSachVatPham = new DanhSachVatPham();
         danhSachVatPham.nhap();
         danhSachVatPham.xuat();
+        danhSachVatPham.nhap4();
     }
 }

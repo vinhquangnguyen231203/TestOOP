@@ -69,11 +69,15 @@ public class DanhSachVatPham {
             }
             else if(choose == 6) {
                 if(checkDu5LoaiVP()) {
+                    System.out.println("#################");
+                    System.out.println("----- Day du vat pham de chien dau");
+                    System.out.println("##################");
                     break;
                 }
                 else{
                     System.out.println("#################");
                     System.out.println("----- Chua du vat pham");
+                    System.out.println("##################");
                     continue;
                 }
             }
